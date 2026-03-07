@@ -65,18 +65,19 @@ const HeroSection = () => {
     <section className="bg-main-bg">
       <div className="hero-container">
         {isTablet ? (
-          <>
-            {isMobile && (
-<img
-  src={import.meta.env.BASE_URL + "images/hero-bg.png"}
-  className="absolute bottom-40 size-full object-cover"
-/>
+<>
+  {isMobile && (
+    <img
+      src={import.meta.env.BASE_URL + "images/hero-bg.png"}
+      className="absolute bottom-40 size-full object-cover"
+    />
+  )}
 
-<img
-  src={import.meta.env.BASE_URL + "images/hero-img.png"}
-  className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto"
-/>
-          </>
+  <img
+    src={import.meta.env.BASE_URL + "images/hero-img.png"}
+    className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto"
+  />
+</>
         ) : (
 <video
   src={import.meta.env.BASE_URL + "videos/hero-bg.mp4"}
