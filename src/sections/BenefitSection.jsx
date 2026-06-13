@@ -46,14 +46,14 @@ const BenefitSection = () => {
     <section className="benefit-section">
       <div className="container mx-auto pt-20">
         <div className="col-center">
-          <p>
-            Unlock the Advantages: <br />
-            Explore the Key Benefits of Choosing SPYLT
-          </p>
+<p>
+  Discover the Difference: <br />
+  Explore the Signature Features of Qlassic Armor
+</p>
 
           <div className="mt-20 col-center">
             <ClipPathTitle
-  title={"Shelf stable"}
+  title={"Premium fabrics"}
   color={"#eaf9fd"}
   bg={"#18a7c8"}
   className={"first-title"}
@@ -61,7 +61,7 @@ const BenefitSection = () => {
 />
 
 <ClipPathTitle
-  title={"Protein + Caffeine"}
+  title={"Custom + Qlassic"}
   color={"#0d3f93"}
   bg={"#d7eef4"}
   className={"second-title"}
@@ -69,7 +69,7 @@ const BenefitSection = () => {
 />
 
 <ClipPathTitle
-  title={"Infinitely recyclable"}
+  title={"Timeless designs"}
   color={"#eaf9fd"}
   bg={"#1478b5"}
   className={"third-title"}
@@ -77,7 +77,7 @@ const BenefitSection = () => {
 />
 
 <ClipPathTitle
-  title={"Lactose free"}
+  title={"Tailored fit"}
   color={"#0d3f93"}
   bg={"#80c4d6"}
   className={"fourth-title"}
