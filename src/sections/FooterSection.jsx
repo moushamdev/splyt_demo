@@ -36,21 +36,30 @@ const FooterSection = () => {
         )}
 
         <div className="flex-center gap-5 relative z-10 md:mt-20 mt-5">
-          <div className="social-btn">
-            <img src={import.meta.env.BASE_URL + "images/yt.svg"} alt="" />
-          </div>
-          <div className="social-btn">
-            <img src={import.meta.env.BASE_URL + "images/insta.svg"} alt="" />
-          </div>
-          <div className="social-btn">
-            <img src={import.meta.env.BASE_URL + "images/tiktok.svg"} alt="" />
-          </div>
+  <div
+    className="social-btn cursor-pointer"
+    onClick={() => window.open("https://www.facebook.com/profile.php?id=61588168774083", "_blank")}
+  >
+    <img src={import.meta.env.BASE_URL + "images/yt.svg"} alt="YouTube" />
+  </div>
+  <div
+    className="social-btn cursor-pointer"
+    onClick={() => window.open("https://instagram.com/the_qlassic_armours", "_blank")}
+  >
+    <img src={import.meta.env.BASE_URL + "images/insta.svg"} alt="Instagram" />
+  </div>
+  <div
+    className="https://x.com/TQAS140"
+    onClick={() => window.open("https://tiktok.com/@yourusername", "_blank")}
+  >
+    <img src={import.meta.env.BASE_URL + "images/tiktok.svg"} alt="TikTok" />
+  </div>
         </div>
 
         <div className="mt-40 md:px-10 px-5 flex gap-10 md:flex-row flex-col justify-between text-milk font-paragraph md:text-lg font-medium">
           <div className="flex items-center md:gap-16 gap-5">
             <div>
-              <p>Qlassic Armor</p>
+              <p>The Qlassic Armours</p>
             </div>
             <div>
   <p>Style Club</p>
