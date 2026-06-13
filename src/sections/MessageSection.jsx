@@ -72,7 +72,9 @@ gsap.to(secMsgSplit.words, {
       <div className="container mx-auto flex-center py-28 relative">
         <div className="w-full h-full">
           <div className="msg-wrapper">
-            <h1 className="first-message">Stir up your fearless past and</h1>
+<h1 className="first-message">
+  Express your timeless style and
+</h1>
 
             <div
               style={{
@@ -81,22 +83,21 @@ gsap.to(secMsgSplit.words, {
               className="msg-text-scroll"
             >
               <div className="bg-light-brown md:pb-5 pb-3 px-5">
-                <h2 className="text-red-brown">Fuel Up</h2>
+<h2 className="text-red-brown">Dress Up</h2>
               </div>
             </div>
 
-            <h1 className="second-message">
-              your future with every gulp of Perfect Protein
-            </h1>
+<h1 className="second-message">
+  your journey with every piece from Qlassic Armor
+</h1>
           </div>
 
           <div className="flex-center md:mt-20 mt-10">
             <div className="max-w-md px-10 flex-center overflow-hidden">
-              <p>
-                Rev up your rebel spirit and feed the adventure of life with
-                SPYLT, where you’re one chug away from epic nostalgia and
-                fearless fun.
-              </p>
+<p>
+  Elevate your personal style with Qlassic Armor, where you're
+  one outfit away from timeless fashion and confident expression.
+</p>
             </div>
           </div>
         </div>
